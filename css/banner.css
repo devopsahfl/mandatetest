@@ -1,0 +1,192 @@
+/* Slider form 21-7-18 */
+.bannerForm.right.new{
+    top: 390px;
+    right: 150px;
+    left: auto;
+    width: 280px;
+}
+.bannerForm.right.new .contentdiv{
+    height: 180px;
+    text-align: left;
+}
+.bannerForm.right.new .formBox h1{
+    color:#fff;
+}
+.bannerForm.right.new .formBox ul{
+    color:#fff;
+    padding-left:16px;
+}
+.bannerForm.right.new .formBox .banner-text{
+    color:#fff;
+    padding-left: 16px;
+    margin: 12px 0;
+}
+.bannerForm.right.new .formBox form {
+    background: transparent;
+    padding: 5px 0px;
+    border-top: 1px dashed #fff;
+}
+
+.bannerForm.right.new .formBox form .loanSelectCon {
+    overflow: hidden;
+    border-radius: 0;
+    position: relative;
+    border: 1px solid #fff;
+}
+.bannerForm.right.new .formBox form select {
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    -webkit-appearance: none;
+   appearance: none;
+   border: 1px;
+    
+}
+.bannerForm.right.new .formBox form select option {
+    color: #000;   
+    text-transform: capitalize;
+}
+.bannerForm.right.new .formBox form .loanSelectCon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    right: 10px;
+    top: 14px;
+    border: 8px solid #ea2225;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    pointer-events: none;
+}
+@media only screen and (max-width: 480px){
+    .bannerForm.right.new {
+        text-align: center;
+        left: 0 !important;
+        width: 100% !important;
+        top: 0px !important;
+        position: relative !important;
+        background: #ea2225;
+        padding-top: 1px;
+    }
+    .bannerForm.right.new .formBox .banner-text {
+        list-style: none;
+    }
+    .bannerForm.right.new .formBox form .loanSelectCon:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        right: 10px;
+        top: 14px;
+        border: 8px solid #fff;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        pointer-events: none;
+    }
+    .bannerForm.right.new .formBox form {
+        padding: 15px 50px 30px !important;
+        border-top: 0 !important;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait){
+    .bannerForm.right.new {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .bannerForm.right.new .formBox form {
+        padding: 0 !important;
+    }
+    .bannerForm.right.new .formBox .banner-text {
+        margin: 5px 0;
+    }
+    .bannerForm.right.new .formBox .banner-text {
+        list-style: none;
+    }
+    .bannerForm.right.new.new .formBox h1 {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .bannerForm.right.new .contentdiv {
+        height: 140px;
+        text-align: left;
+    }
+    .bannerForm.right.new {
+        width: 225px!important;
+        top: 135px!important;
+        right: 40px!important;
+        left: auto!important;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){
+    .bannerForm.right.new {
+        width: 300px !important;
+        top: 350px !important;
+        right: 40px !important;
+        left: auto !important;
+        text-align: left;
+    }
+    .bannerForm.right.new .formBox form {
+        padding: 0 !important;
+    }
+    .bannerForm.right.new .formBox .banner-text {
+        margin: 5px 0;
+    }
+    .bannerForm.right.new .formBox .banner-text {
+        list-style: none;
+    }
+    .bannerForm.right.new.new .formBox h1 {
+        font-size: 12px;
+    }
+    .hindislider .contentdiv {
+        right: 40px !important;
+        top: 30px !important;
+    }
+}
+
+.contentdiv{
+    position: absolute;
+    color: #fff;
+    right: 130px;
+    top: 65px;
+    width: 300px;
+}
+.hindislider .contentdiv{
+    position: absolute;
+    color: #fff;
+    right: 130px;
+    top: 65px;
+    width: 300px;
+}
+.contentdiv h1{
+    font-size:17px;
+}
+.contentdiv ul{
+    padding-left:16px;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait){
+    .bannerForm.right.new.hindi {
+        width: 300px !important;
+        top: 280px!important;
+        right: 0!important;
+        left: auto!important;
+    }
+    .contentdiv h1{
+        font-size:12px;
+    }
+    .contentdiv ul{
+        font-size:10px;
+    }
+    .hindislider .contentdiv {
+        right: 0;
+        top: 21px;
+    }
+    .navbar-nav.top-links {
+        font-size: 9px;
+    }
+}
